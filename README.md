@@ -1,5 +1,6 @@
 # Description
 Contains backend file for Talent Academy Group 3 Project - ELK
+
 <!-- BEGIN_TF_DOCS -->
 ## Requirements
 
@@ -7,7 +8,9 @@ No requirements.
 
 ## Providers
 
-No providers.
+| Name | Version |
+|------|---------|
+| <a name="provider_aws"></a> [aws](#provider\_aws) | 4.37.0 |
 
 ## Modules
 
@@ -15,7 +18,11 @@ No modules.
 
 ## Resources
 
-No resources.
+| Name | Type |
+|------|------|
+| [aws_dynamodb_table.terraform_lock_tbl](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/dynamodb_table) | resource |
+| [aws_s3_bucket.ta_backend_bucket](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/s3_bucket) | resource |
+| [aws_s3_bucket_versioning.version_my_bucket](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/s3_bucket_versioning) | resource |
 
 ## Inputs
 
