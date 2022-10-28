@@ -1,3 +1,31 @@
+# Description
+Contains backend file for Talent Academy Group 3 Project - ELK
+<!-- BEGIN_TF_DOCS -->
+## Requirements
+
+No requirements.
+
+## Providers
+
+No providers.
+
+## Modules
+
+No modules.
+
+## Resources
+
+No resources.
+
+## Inputs
+
+No inputs.
+
+## Outputs
+
+No outputs.
+<!-- END_TF_DOCS -->
+
 # Final Project - ELK 
 The ELK stack is an acronym used to describe a stack that comprises of three popular projects: Elasticsearch, Logstash, and Kibana. Often referred to as Elasticsearch, the ELK stack gives you the ability to aggregate logs from all your systems and applications, analyze these logs, and create visualizations for application and infrastructure monitoring, faster troubleshooting, security analytics, and more.
 
@@ -19,3 +47,5 @@ For more [reference, click here](https://aws.amazon.com/opensearch-service/the-e
 ![alt text](https://github.com/KlToti/group-3-Network/blob/main/pics/082918_1504_ELKStackTut2.webp)
 
 [Pic reference](https://www.guru99.com/elk-stack-tutorial.html)
+
+
