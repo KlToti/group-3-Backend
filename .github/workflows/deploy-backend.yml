@@ -1,4 +1,4 @@
-name: Deployment for VPC
+name: Deployment for Backend
 on: [push]
 jobs:
   runs-on: ubuntu-lastest
@@ -7,7 +7,7 @@ jobs:
       uses: aws-actions/configure-aws-credentials@v1
       with:
         aws-access-key-id: ${{ secrets.AWS_Access_key}}
-        aws-secret-access-key: ${{secrets.AWS_Secret_Access_Key}}
+        aws-secret-access-key: ${{ secrets.AWS_Secret_Access_Key }}
         aws-region: "eu-central-1"
 
     - name: clone/checkout your repository
