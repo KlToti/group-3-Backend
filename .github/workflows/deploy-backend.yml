@@ -23,8 +23,6 @@ jobs:
       - name: Terrafom Plan
         run: terraform plan
 
-    # if: github.ref == 'refs/heads/master'
-    # steps: 
-    #   - name: Terrafom Apply
-    #     run: terraform apply
-    
+      - name: Terrafom Apply
+        if: github.ref == 'refs/heads/main'
+        run: terraform apply
